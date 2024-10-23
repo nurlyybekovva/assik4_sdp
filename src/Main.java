@@ -14,8 +14,8 @@ public class Main {
 
         try {
             System.out.println("Invalid fare: " + ride.calculateFare(-10, 20, false));
-        } catch (IllegalArgumentException e) {
-            System.out.println("Error: " + e.getMessage());
+        } catch (IllegalArgumentException exp) {
+            System.out.println("Error: " + exp.getMessage());
         }
     }
 }
